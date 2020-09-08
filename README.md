@@ -13,10 +13,10 @@ Copy the Python script in to your `/config/python_scripts` directory.
 ## Service arguments
 key | required | type | description
 -- | -- | -- | --
-`entity_id:` | True | string | The full entity id to update
-`state:` | False | any | The state value
-`allow_create:` | False | Boolean | Allow the entity to be created if it does not exists (Defaults to false so mis-typed entities do not                                       accidentally get created.)
-`...:` | False | any | any additional name becomes or replaces and attribute on the entity
+`entity_id` | True | string | The full entity id to update
+`state` | False | any | The state value
+`allow_create` | False | Boolean | Allow the entity to be created if it does not exists (Defaults to false so mis-typed entities do not                                       accidentally get created.)
+`...` | False | any | any additional name becomes or replaces and attribute on the entity
 
 ## Usage
 Each call requires at least an entity_id and a state or attributes (otherwise it wont do anything)
